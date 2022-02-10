@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    padding-left: 10%;
+    padding-top: 4.5%;
+    display: flex;
+    background-color: rgb(233, 238, 167);
+}
+.text{
+    width: 36%;
+    background-color: rgb(148, 230, 230);
+    height: 85vh;
+    padding-top: 1.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    border-radius: 18px;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+
+.back-field{
+    background-color: #f0f0f0;
+    width: 80%;
+  height: 70px;
+  background-color: #f0f0f0;
+  margin: 10px 0;
+  border-radius: 55px;
+  display: grid;
+  grid-template-columns: 15% 85%;
+  padding: 0 0.4rem;
+  position: relative;
+}
+.back-field i{
+    text-align: center;
+   line-height: 10px;
+   color: #acacac;
+   font-size: 1.1rem;
+   position: relative;
+   top: 1.2rem;
+   color: #19d5bc;
+}
+.back-field input{
+    background: none;
+    outline: none;
+    border: none;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+
+.back-field input::placeholder {
+    color: #aaa;
+    font-weight: 500;
+}
+  
+.add-event,.backbtn {
+    width: 150px;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 48px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    color: #19d5bc;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 20px 7px;
+    transition: all 0.5s;
+    z-index: 2;
+    transition: all 0.3s linear;
+}
+
+/* button 1 */
+.add-event:hover {
+    letter-spacing: 1px;
+}
+.add-event:active{
+    box-shadow: none;
+    transform: scale(0.9);
+}
+
+/* button 2 */
+.backbtn:hover {
+    letter-spacing: 1px;
+}
+.backbtn:active{
+    box-shadow: none;
+    transform: scale(0.9);
+}
+
+h1{
+    font-family: 'Syne Tactile', cursive;
+  }
+
+  .image{
+    padding-left: 5%;
+    padding-top: 3%;
+
+  }
+
+  .circleX{
+    position: absolute;
+    left: -7.65%;
+    top: 29.6%;
+    width: 50%;
+    height: 65%;
+    background:#19d5bc;
+    clip-path: circle(530px at right 700px);
+    border: none;
+    border-radius: 18px;
+}
+
+.btn{
+    z-index: 2;
+    display: flex;
+}
